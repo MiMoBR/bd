@@ -36,3 +36,27 @@ DELETE FROM PA_DOCUMENT_UNIT WHERE CODE = '"&#REF!&"'
 Update
 
 UPDATE PA_DOCUMENT_UNIT SET NAME = ? WHERE CODE = ?
+
+
+--------------------------
+
+Adicionar uma coluna à tabela:
+
+ALTER TABLE nome_tabela ADD nome_coluna tipo_dados;
+
+
+--------------------------
+
+Excluir uma coluna de uma tabela:
+
+ALTER TABLE nome_tabela DROP COLUMN nome_coluna;
+
+
+--------------------------
+
+Alterar o tipo de dados de uma coluna:
+
+ALTER TABLE nome_tabela MODIFY COLUMN nome_coluna tipo_dados;
+
+
+--------------------------
