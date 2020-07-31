@@ -11,6 +11,11 @@ CREATE TABLE PA_PARAMETERIZATION_FIDELITY (
 
 ------------------------------------------------
 
+Reorder
+Call Sysproc.admin_cmd('REORG TABLE FORM_ASSISTENCIA_TECNICA');
+
+------------------------------------------------
+
 Insert Item
 INSERT INTO PA_PARAMETERIZATION_KILOMETERS (KILOMETERS,STATUS,CREATED_BY,DT_CREATED) VALUES ('Até 100.000','S','GENERATED',sysdate);
 
