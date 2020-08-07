@@ -21,6 +21,8 @@ Call Sysproc.admin_cmd ('reorg indexes all for table TABLENAME');
 Insert Item
 INSERT INTO PA_PARAMETERIZATION_KILOMETERS (KILOMETERS,STATUS,CREATED_BY,DT_CREATED) VALUES ('Até 100.000','S','GENERATED',sysdate); SYSDATE OR CURRENT TIMESTAMP
 
+Update all itens on colunm
+UPDATE ORDER_DOSSIER SET ID_STATUS = 1;
 
 ------------------------------------------------
 
